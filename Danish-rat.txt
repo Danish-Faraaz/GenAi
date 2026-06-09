@@ -1,0 +1,75 @@
+rat num row
+-------------------------
+1
+22
+333
+4444
+55555
+
+rat num col
+-------------------------
+0
+01
+012
+0123
+01234
+
+rat star
+-------------------------
+*
+**
+***
+****
+*****
+
+rat upper row
+-------------------------
+A 
+B B 
+C C C 
+D D D D 
+E E E E E 
+
+rat upper col
+-------------------------
+
+A 
+A B 
+A B C 
+A B C D 
+A B C D E 
+
+rat lower row
+-------------------------
+a 
+b b 
+c c c 
+d d d d 
+e e e e e 
+
+rat lower col
+-------------------------
+
+a 
+a b 
+a b c 
+a b c d 
+a b c d e 
+
+rat name row
+-------------------------
+d 
+a a 
+n n n 
+i i i i 
+s s s s s 
+h h h h h h 
+
+rat name col
+-------------------------
+d 
+d a 
+d a n 
+d a n i 
+d a n i s 
+d a n i s h 
