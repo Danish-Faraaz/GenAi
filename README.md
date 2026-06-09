@@ -1,0 +1,1 @@
+In this repository, I document my work on Gen AI through various tasks and assignments. It reflects my understanding of how AI can generate content such as text, images, and code. This repository focuses on my practical learning experience and hands-on exploration of Gen AI concepts.
