@@ -1,0 +1,65 @@
+
+ilat num row
+-------------------------
+666666
+ 55555
+  4444
+   333
+    22
+     1
+
+ilat num col
+-------------------------
+012345
+ 01234
+  0123
+   012
+    01
+     0
+
+ilat star
+-------------------------
+******
+ *****
+  ****
+   ***
+    **
+     *
+
+ilat upper row
+-------------------------
+FFFFFF
+ EEEEE
+  DDDD
+   CCC
+    BB
+     A
+
+ilat upper col
+-------------------------
+ABCDEF
+ ABCDE
+  ABCD
+   ABC
+    AB
+     A
+      
+
+ilat lower row
+-------------------------
+ffffff
+ eeeee
+  dddd
+   ccc
+    bb
+     a
+
+ilat lower col
+-------------------------
+abcdef
+ abcde
+  abcd
+   abc
+    ab
+     a
+      

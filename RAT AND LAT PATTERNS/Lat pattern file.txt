@@ -1,0 +1,113 @@
+def lat_num_row():
+    f=open('DanishILat.txt','w+')
+    f.write('\n')
+    f.write('lat num row\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(str(i))
+        f.write('\n')
+    f.close()
+lat_num_row()
+         
+ 
+def lat_num_col():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('lat num col\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(str(k))
+        f.write('\n')
+    f.close()
+lat_num_col()
+         
+
+ 
+def lat_star():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('lat star\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write('*')
+        f.write('\n')
+    f.close()
+lat_star()
+
+
+def lat_upperrow():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('lat upper row\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(chr(i+64)+'')
+        f.write('\n')
+    f.close()
+lat_upperrow()
+
+def lat_uppercol():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('lat upper col\n-------------------------\n')
+    for i in range(7,0,-1):
+        for j in range(7,i,-1):
+            f.write(' ')
+        for k in range(1,i):
+            f.write(chr(k+64)+'')
+        f.write('\n')
+    f.close()
+lat_uppercol()
+
+
+def lat_lowerrow():
+    f=open('DanishILAt.txt','a+')
+    f.write('\n')
+    f.write('lat lower row\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(chr(i+64+32)+'')
+        f.write('\n')
+    f.close()
+lat_lowerrow()
+
+
+def lat_lowercol():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('lat lower col\n-------------------------\n')
+    for i in range(7,0,-1):
+        for j in range(7,i,-1):
+            f.write(' ')
+        for k in range(1,i):
+            f.write(chr(k+64+32)+'')
+        f.write('\n')
+    f.close()
+lat_lowercol()
+
+
+def lat_name_row():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('lat name row\n-------------------------\n')
+    name='danish'
+    for i in range(len(name)):
+        for j in range(len(name),i,-1):
+            f.write(' ')
+        for k in range(i+1):
+            f.write(name[i]+'')
+        f.write('\n')
+    f.close()
+lat_name_row()
+
+

@@ -1,0 +1,99 @@
+def ilat_num_row():
+    f=open('DanishILat.txt','w+')
+    f.write('\n')
+    f.write('ilat num row\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(str(i))
+        f.write('\n')
+    f.close()
+ilat_num_row()
+         
+ 
+def ilat_num_col():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('ilat num col\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(str(k))
+        f.write('\n')
+    f.close()
+ilat_num_col()
+         
+
+ 
+def ilat_star():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('ilat star\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write('*')
+        f.write('\n')
+    f.close()
+ilat_star()
+
+
+def ilat_upperrow():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('ilat upper row\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(chr(i+64)+'')
+        f.write('\n')
+    f.close()
+ilat_upperrow()
+
+def ilat_uppercol():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('ilat upper col\n-------------------------\n')
+    for i in range(7,0,-1):
+        for j in range(7,i,-1):
+            f.write(' ')
+        for k in range(1,i):
+            f.write(chr(k+64)+'')
+        f.write('\n')
+    f.close()
+ilat_uppercol()
+
+
+def ilat_lowerrow():
+    f=open('DanishILAt.txt','a+')
+    f.write('\n')
+    f.write('ilat lower row\n-------------------------\n')
+    for i in range(6,0,-1):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(chr(i+64+32)+'')
+        f.write('\n')
+    f.close()
+ilat_lowerrow()
+
+
+def ilat_lowercol():
+    f=open('DanishILat.txt','a+')
+    f.write('\n')
+    f.write('ilat lower col\n-------------------------\n')
+    for i in range(7,0,-1):
+        for j in range(7,i,-1):
+            f.write(' ')
+        for k in range(1,i):
+            f.write(chr(k+64+32)+'')
+        f.write('\n')
+    f.close()
+ilat_lowercol()
+
+
+

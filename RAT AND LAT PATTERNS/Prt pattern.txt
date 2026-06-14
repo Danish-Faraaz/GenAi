@@ -1,0 +1,58 @@
+
+prt num row
+-------------------------
+     1 
+    2 2 
+   3 3 3 
+  4 4 4 4 
+ 5 5 5 5 5 
+
+prt num col
+-------------------------
+     0 
+    0 1 
+   0 1 2 
+  0 1 2 3 
+ 0 1 2 3 4 
+
+prt star
+-------------------------
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+
+prt upper row
+-------------------------
+     A 
+    B B 
+   C C C 
+  D D D D 
+ E E E E E 
+
+prt upper col
+-------------------------
+     
+    A 
+   A B 
+  A B C 
+ A B C D 
+A B C D E 
+
+prt lower row
+-------------------------
+     a 
+    b b 
+   c c c 
+  d d d d 
+ e e e e e 
+
+prt lower col
+-------------------------
+     
+    a 
+   a b 
+  a b c 
+ a b c d 
+a b c d e 

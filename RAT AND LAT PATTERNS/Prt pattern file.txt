@@ -1,0 +1,95 @@
+def prt_num_row():
+    f=open('Prt pattern file.txt','w+')
+    f.write('\n')
+    f.write('prt num row\n-------------------------\n')
+    for i in range(1,6):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(str(i)+' ')
+        f.write('\n')
+    f.close()
+prt_num_row()
+
+def prt_num_col():
+    f=open('Prt pattern file.txt','a+')
+    f.write('\n')
+    f.write('prt num col\n-------------------------\n')
+    for i in range(1,6):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(str(k)+' ')
+        f.write('\n')
+    f.close()
+prt_num_col()
+
+def prt_star():
+    f=open('Prt pattern file.txt','a+')
+    f.write('\n')
+    f.write('prt star\n-------------------------\n')
+    for i in range(1,6):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write('*'+' ')
+        f.write('\n')
+    f.close()
+prt_star()
+
+def prt_upper_row():
+    f=open('Prt pattern file.txt','a+')
+    f.write('\n')
+    f.write('prt upper row\n-------------------------\n')
+    for i in range(1,6):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(chr(i+64)+' ')
+        f.write('\n')
+    f.close()
+prt_upper_row()
+
+def prt_upper_col():
+    f=open('Prt pattern file.txt','a+')
+    f.write('\n')
+    f.write('prt upper col\n-------------------------\n')
+    for i in range(1,7):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(1,i):
+            f.write(chr(k+64)+' ')
+        f.write('\n')
+    f.close()
+prt_upper_col()
+
+def prt_lower_row():
+    f=open('Prt pattern file.txt','a+')
+    f.write('\n')
+    f.write('prt lower row\n-------------------------\n')
+    for i in range(1,6):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(0,i):
+            f.write(chr(i+64+32)+' ')
+        f.write('\n')
+    f.close()
+prt_lower_row()
+
+def prt_lower_col():
+    f=open('Prt pattern file.txt','a+')
+    f.write('\n')
+    f.write('prt lower col\n-------------------------\n')
+    for i in range(1,7):
+        for j in range(6,i,-1):
+            f.write(' ')
+        for k in range(1,i):
+            f.write(chr(k+64+32)+' ')
+        f.write('\n')
+    f.close()
+prt_lower_col()
+
+
+
+
+    

@@ -1,0 +1,69 @@
+
+lat num row
+-------------------------
+     1
+    22
+   333
+  4444
+ 55555
+
+lat num col
+-------------------------
+     0
+    01
+   012
+  0123
+ 01234
+
+lat star
+-------------------------
+     *
+    **
+   ***
+  ****
+ *****
+
+lat upper row
+-------------------------
+     A
+    BB
+   CCC
+  DDDD
+ EEEEE
+
+lat upper col
+-------------------------
+       
+      
+     A
+    AB
+   ABC
+  ABCD
+ ABCDE
+
+lat lower row
+-------------------------
+     a
+    bb
+   ccc
+  dddd
+ eeeee
+
+lat lower col
+-------------------------
+       
+      
+     a
+    ab
+   abc
+  abcd
+ abcde
+
+lat name row
+-------------------------
+      d
+     aa
+    nnn
+   iiii
+  sssss
+ hhhhhh
